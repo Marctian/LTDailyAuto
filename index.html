@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>老田的任务记录器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>任务记录器</h1>
+        <input type="text" id="taskName" placeholder="输入任务名称" />
+        <div class="buttons">
+            <button onclick="startTask()">开始</button>
+            <button onclick="pauseTask()">暂停</button>
+            <button onclick="resumeTask()">继续</button>
+            <button onclick="endTask()">结束</button>
+            <button onclick="addFutureTask()">添加明日任务</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
